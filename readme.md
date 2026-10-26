@@ -2,6 +2,29 @@
 
 For everybody like me who cannot remember the range of the zodiac signs. Just a simple calendar file with the dates/ranges.
 
+## Date ranges
+
+The calendar uses fixed annual date ranges, not year-specific astronomical transition times.
+Both dates in the following table are inclusive. In [zodiac.ics](zodiac.ics),
+`DTSTART;VALUE=DATE` is the first included day and `DTEND;VALUE=DATE` is the day
+after the last included day (exclusive), as required by iCalendar.
+For example, Scorpio includes November 22, so its `DTEND` is November 23.
+
+| Sign | First included day | Last included day |
+| --- | --- | --- |
+| Capricorn | December 22 | January 20 |
+| Aquarius | January 21 | February 19 |
+| Pisces | February 20 | March 20 |
+| Aries | March 21 | April 20 |
+| Taurus | April 21 | May 20 |
+| Gemini | May 21 | June 21 |
+| Cancer | June 22 | July 22 |
+| Leo | July 23 | August 23 |
+| Virgo | August 24 | September 23 |
+| Libra | September 24 | October 23 |
+| Scorpio | October 24 | November 22 |
+| Sagittarius | November 23 | December 21 |
+
 ## Usage
 
 - Put the calendar file somewhere on a webspace and memorize the path.
